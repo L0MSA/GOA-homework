@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form method="POST" action="/submit-contact">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@example.com" required><br>
+
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first_name" placeholder="Xvicha" required><br>
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last_name" placeholder="Kvaracxelia" required><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your message here..." required></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

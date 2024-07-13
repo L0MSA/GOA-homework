@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and Video Example</title>
+</head>
+<body>
+    <h2>Audio Example</h2>
+    <audio controls loop autoplay muted preload="auto">
+
+        <source src="example.mp3" type="audio/mp3">
+
+        <source src="example.ogg" type="audio/ogg">
+
+        Your browser does not support the audio tag or the audio formats provided.
+    </audio>
+
+    <script>
+        var audio = document.querySelector("audio");
+
+        function toggleMute() {
+            audio.muted = !audio.muted;
+        }
+    </script>
+
+    <button onclick="toggleMute()">Toggle Mute</button>
+</body>
+</html>
