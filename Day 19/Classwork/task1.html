@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfa Romeo HQ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #900;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #600;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        .car-models {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .car-model {
+            flex: 1 1 calc(33.333% - 20px);
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .car-model img {
+            width: 100%;
+            height: auto;
+        }
+        .car-model h3 {
+            font-size: 1.2em;
+            margin: 10px;
+        }
+        .car-model p {
+            font-size: 1em;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Alfa Romeo HQ</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#models">Models</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Alfa Romeo</h2>
+            <p>Alfa Romeo is an Italian luxury car manufacturer known for its stylish and high-performance vehicles. Founded in 1910, Alfa Romeo has a rich history in automotive design and motorsport. The company's headquarters are located in Turin, Italy.</p>
+        </section>
+        <section id="models">
+            <h2>Car Models</h2>
+            <div class="car-models">
+                <div class="car-model">
+                    <img src="https://shorturl.at/g6XMD" alt="Alfa Romeo Giulia">
+                    <h3>Alfa Romeo Giulia</h3>
+                    <p>The Alfa Romeo Giulia is a compact executive car that combines performance and luxury. It's known for its sleek design and powerful engine options.</p>
+                </div>
+                <div class="car-model">
+                    <img src="https://shorturl.at/qZgSu" alt="Alfa Romeo Stelvio">
+                    <h3>Alfa Romeo Stelvio</h3>
+                    <p>The Alfa Romeo Stelvio is a luxury crossover SUV that offers a perfect blend of sportiness and practicality. It features advanced technology and a comfortable interior.</p>
+                </div>
+                <div class="car-model">
+                    <img src="https://shorturl.at/8r50J" alt="Alfa Romeo 4C">
+                    <h3>Alfa Romeo 4C</h3>
+                    <p>The Alfa Romeo 4C is a lightweight sports car that delivers exceptional performance and handling. Its striking design and impressive power-to-weight ratio make it a true driver's car.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like more information about Alfa Romeo, please contact us at:</p>
+            <p>Email: info@alfaromeo.com</p>
+            <p>Phone: +995 577 12 34 56</p>
+        </section>
+    </div>
+</body>
+</html>
