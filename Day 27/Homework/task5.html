@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            position: relative;
+            height: 500px;
+            width: 400px;
+            font-family: Arial, sans-serif;
+        }
+
+        .text {
+            position: absolute;
+        }
+
+        #hello {
+            top: 10px;
+            right: 20px;
+            text-decoration: line-through;
+            text-decoration-style: dotted;
+            text-decoration-color: green;
+        }
+
+
+
+        #world {
+            top: 50px;
+            left: 50px;
+            text-decoration: line-through;
+        }
+
+        #exclamation {
+            top: 90px;
+            left: 30px;
+        }
+
+        #equals {
+            color: red;
+            display: block;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        #goal {
+            top: 160px;
+            left: 160px;
+            text-decoration: underline;
+        }
+
+        #oriented {
+            top: 200px;
+            left: 230px;
+            text-decoration: line-through;
+            text-decoration-style: dotted;
+            text-decoration-color: green;
+        }
+
+        #academy {
+            top: 250px;
+            left: 30px;
+            text-decoration: line-through;
+        }
+
+        #is-wrapper {
+            top: 270px;
+            left: 70px;
+        }
+
+        #is-wrapper::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            background-color: black;
+            margin-bottom: 2px;
+        }
+
+        #the-wrapper {
+            top: 320px;
+            left: 250px;
+        }
+
+        #the-wrapper::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            background-color: green;
+            margin-bottom: 2px;
+        }
+
+        #the {
+            color: green;
+        }
+
+        #best-wrapper {
+            top: 370px;
+            left: 100px;
+        }
+
+        #best-wrapper::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            background-color: grey;
+            margin-bottom: 2px;
+        }
+
+        #best {
+            color: grey;
+            font-weight: bold;
+        }
+
+        #one-wrapper {
+            top: 420px;
+            left: 320px;
+        }
+
+        #one {
+            top: 200px;
+            left: 230px;
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            text-decoration-color: green;
+        }
+        #one {
+        }
+    </style>
+    <title>Recreated Layout</title>
+</head>
+<body>
+    <div id="hello" class="text">Hello</div>
+    <div id="world" class="text">World</div>
+    <div id="exclamation" class="text"><span id="equals">=</span>!</div>
+    <div id="goal" class="text">Goal</div>
+    <div id="oriented" class="text">Oriented</div>
+    <div id="academy" class="text">Academy</div>
+    <div id="is-wrapper" class="text">
+        <div id="is">is</div>
+    </div>
+    <div id="the-wrapper" class="text">
+        <div id="the">the</div>
+    </div>
+    <div id="best-wrapper" class="text">
+        <div id="best">BEST</div>
+    </div>
+    <div id="one-wrapper" class="text">
+        <div id="one">one</div>
+    </div>
+</body>
+</html>
